@@ -1,3 +1,38 @@
-/* .banner block{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.banner {
+    width: 100%;
+    max-width: 960px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: auto;
     background-color: blue;
-} */
+}
+
+.banner-back {
+    width: 100%;
+    max-width: 960px;
+    height: 350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.slide-text {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    color: red;
+    text-align: center;
+}
